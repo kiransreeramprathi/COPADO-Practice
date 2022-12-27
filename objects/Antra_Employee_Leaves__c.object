@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Antra Employee Leaves</label>
+    <nameField>
+        <displayFormat>ALV-{000}</displayFormat>
+        <label>Leave ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Antra Employee Leaves</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Leave_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Leave Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>casual leave</fullName>
+                    <default>false</default>
+                    <label>casual leave</label>
+                </value>
+                <value>
+                    <fullName>earned leave</fullName>
+                    <default>false</default>
+                    <label>earned leave</label>
+                </value>
+                <value>
+                    <fullName>maternity leave</fullName>
+                    <default>false</default>
+                    <label>maternity leave</label>
+                </value>
+                <value>
+                    <fullName>medical leave</fullName>
+                    <default>false</default>
+                    <label>medical leave</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Employee_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee ID</label>
+        <referenceTo>Antra_Employee__c</referenceTo>
+        <relationshipLabel>Antra Employee Leaves</relationshipLabel>
+        <relationshipName>Antra_Employee_Leaves</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Leave_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Leave Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Leave_Type__c</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Marriage</fullName>
+                    <default>false</default>
+                    <label>Marriage</label>
+                </value>
+                <value>
+                    <fullName>Maternity leave</fullName>
+                    <default>false</default>
+                    <label>Maternity leave</label>
+                </value>
+                <value>
+                    <fullName>Medically Unfit</fullName>
+                    <default>false</default>
+                    <label>Medically Unfit</label>
+                </value>
+                <value>
+                    <fullName>Personal</fullName>
+                    <default>false</default>
+                    <label>Personal</label>
+                </value>
+                <value>
+                    <fullName>Personal Reason</fullName>
+                    <default>false</default>
+                    <label>Personal Reason</label>
+                </value>
+                <value>
+                    <fullName>Relative / Friend marriage</fullName>
+                    <default>false</default>
+                    <label>Relative / Friend marriage</label>
+                </value>
+                <value>
+                    <fullName>Ritual</fullName>
+                    <default>false</default>
+                    <label>Ritual</label>
+                </value>
+                <value>
+                    <fullName>Sick</fullName>
+                    <default>false</default>
+                    <label>Sick</label>
+                </value>
+                <value>
+                    <fullName>Travel</fullName>
+                    <default>false</default>
+                    <label>Travel</label>
+                </value>
+                <value>
+                    <fullName>Vacation</fullName>
+                    <default>false</default>
+                    <label>Vacation</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>casual leave</controllingFieldValue>
+                <valueName>Personal Reason</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>casual leave</controllingFieldValue>
+                <valueName>Relative / Friend marriage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>casual leave</controllingFieldValue>
+                <valueName>Ritual</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>earned leave</controllingFieldValue>
+                <valueName>Marriage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>earned leave</controllingFieldValue>
+                <valueName>Personal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>earned leave</controllingFieldValue>
+                <valueName>Travel</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>earned leave</controllingFieldValue>
+                <valueName>Vacation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>maternity leave</controllingFieldValue>
+                <valueName>Maternity leave</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>medical leave</controllingFieldValue>
+                <valueName>Medically Unfit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>medical leave</controllingFieldValue>
+                <valueName>Sick</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Leave_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Leave Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Processing</fullName>
+                    <default>true</default>
+                    <label>Processing</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Partial_Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Partial Days</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Start day</fullName>
+                    <default>false</default>
+                    <label>Start day</label>
+                </value>
+                <value>
+                    <fullName>End day</fullName>
+                    <default>false</default>
+                    <label>End day</label>
+                </value>
+                <value>
+                    <fullName>start day &amp; End day</fullName>
+                    <default>false</default>
+                    <label>start day &amp; End day</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Employee_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Employee_ID__r.First_name__c +&quot; &quot;+ Employee_ID__r.Last_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Employee Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Leave_End_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Leave End date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>leave_duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Leave_start_date__c = Leave_End_date__c &amp;&amp; (ISPICKVAL( Partial_Days__c , &apos;Start day&apos;) || ISPICKVAL( Partial_Days__c , &apos;End day&apos;)),0.5,
+IF( Leave_start_date__c = Leave_End_date__c &amp;&amp; (ISPICKVAL( Partial_Days__c , &apos;Start &amp; End day&apos;)),1,
+IF(Leave_End_date__c &gt; Leave_start_date__c &amp;&amp; (ISPICKVAL( Partial_Days__c , &apos;Start day&apos;) || ISPICKVAL( Partial_Days__c , &apos;End day&apos;)) , (Leave_End_date__c -Leave_start_date__c )+0.5, (Leave_End_date__c -Leave_start_date__c )+1 )
+))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>leave duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Leave_start_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Leave start date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <validationRules>
+        <fullName>Casual_leave_restriction</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Leave_Type__c , &apos;casual leave&apos;) &amp;&amp;  leave_duration__c &gt;3</errorConditionFormula>
+        <errorMessage>unable to process casual leave because the leave applied is more than 3 days</errorMessage>
+    </validationRules>
+</CustomObject>
